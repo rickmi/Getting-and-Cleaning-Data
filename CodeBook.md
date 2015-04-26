@@ -10,7 +10,8 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 * Descriptive Features Names are provided by “features.txt”
 * Descriptive Activity Names are provided by “activity_labels.txt”
 
-More information about the files is available in `README.txt`. More information about the features is available in `features_info.txt`.
+More information about the files is available in `README.txt`. 
+More information about the features is available in `features_info.txt`.
 
 ### Data files not used
 
