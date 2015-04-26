@@ -38,7 +38,7 @@ library(plyr)
                 for (i in 1:6){
                 ActivityDF$Activity[ActivityDF$Activity == i] <- as.character(ActivityNames[i,2])
                 }
-        # Convert Varible to Factor
+        # And then Convert Varible to Factor
                 ActivityDF$Activity <- as.factor(ActivityDF$Activity)
 
 # Merge into one DataFrame which now contains desciptive names in all the column headings.
@@ -51,7 +51,7 @@ library(plyr)
         Measurements <- c(as.character(subFeaturesNames), "Subject", "Activity" )
         ExtractedData <- subset(MergedDF,select=Measurements)
 
-#Creates a second, independent tidy data set with the average of 
+# Creates a second, independent tidy data set with the average of 
 # each variable for each activity and each subject. 
         TidyData <-aggregate(. ~Subject + Activity, ExtractedData, mean)
         TidyData <-TidyData[order(TidyData$Subject,TidyData$Activity),]
