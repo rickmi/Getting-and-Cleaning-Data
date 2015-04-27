@@ -4,13 +4,14 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 ### Summary of the Data files used
 
-* Values for the Activity Varible comprises of data from “y_train.txt” and “y_test.txt”
-* Values for the Subject Varible comprises of data from “subject_train.txt” and subject_test.txt"
-* Values for the Features Varible comprises of data from “X_train.txt” and “X_test.txt”
-* Descriptive Features Names are provided by “features.txt”
-* Descriptive Activity Names are provided by “activity_labels.txt”
+* Values for the Activity Varible comprises of data from `y_train.txt` and `y_test.txt`
+* Values for the Subject Varible comprises of data from `subject_train.txt` and `subject_test.txt`
+* Values for the Features Varible comprises of data from `X_train.txt` and `X_test.txt`
+* Descriptive Features Names are provided by `features.txt`
+* Descriptive Activity Names are provided by `activity_labels.txt`
 
 More information about the files is available in `README.txt`. 
+
 More information about the features is available in `features_info.txt`.
 
 ### Data files not used
